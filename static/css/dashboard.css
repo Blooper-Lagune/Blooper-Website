@@ -1,0 +1,22 @@
+body {
+    height: 100000px;
+    background: darkgoldenrod;
+}
+nav {
+    margin: 12px;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+.navbar {
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid white;
+}
+
+.override-nav {
+    !important;
+    border-radius: 0;
+    transition: 1s;
+    margin: 0;
+}
